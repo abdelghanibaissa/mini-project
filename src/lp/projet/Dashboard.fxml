@@ -7,88 +7,146 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.DashboardController">
-    <children>
-        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
-      <VBox layoutX="2.0" layoutY="3.0" prefHeight="628.0" prefWidth="148.0" style="-fx-background-color: white;">
+<AnchorPane id="AnchorPane" prefHeight="645.0" prefWidth="901.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutY="71.0" prefHeight="645.0" prefWidth="209.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="LP-PROJECT">
+            <ImageView fitHeight="90.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/logo-projet.png" />
+               </image>
                <VBox.margin>
-                  <Insets left="10.0" top="10.0" />
-               </VBox.margin></Text>
-            <Button mnemonicParsing="false" onAction="#showDashboard" prefHeight="50.0" prefWidth="149.0" style="-fx-background-color: white;" text="Dashboard">
-               <VBox.margin>
-                  <Insets top="150.0" />
+                  <Insets />
                </VBox.margin>
+            </ImageView>
+            <Button mnemonicParsing="false" onAction="#showDashboard" prefHeight="55.0" prefWidth="211.0" style="-fx-background-color: white;" text="Dashborad">
+               <VBox.margin>
+                  <Insets top="40.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/dash-v.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
             </Button>
-            <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="50.0" prefWidth="152.0" style="-fx-background-color: white;" text="Annonces" />
-            <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="50.0" prefWidth="150.0" style="-fx-background-color: white;" text="Archives" />
-            <Button mnemonicParsing="false" onAction="#showMembers" prefHeight="50.0" prefWidth="170.0" style="-fx-background-color: white;" text="Members" />
-            <Button mnemonicParsing="false" prefHeight="50.0" prefWidth="173.0" style="-fx-background-color: white;" text="Setting" />
+            <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Annonce">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/send-2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="13.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Archive">
+               <VBox.margin>
+                  <Insets right="20.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/note.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#showMembers" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Members">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/profile.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="19.0" />
+               </padding>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="212.0" style="-fx-background-color: white;" text="Sitting">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/setting.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="25.0" />
+               </padding>
+            </Button>
          </children>
       </VBox>
-      <Pane layoutX="161.0" layoutY="3.0" prefWidth="534.0" style="-fx-background-color: EFF3FD;">
+      <HBox alignment="CENTER_RIGHT" layoutX="214.0" layoutY="6.0" prefHeight="86.0" prefWidth="737.0">
          <children>
-            <VBox layoutX="-5.0" layoutY="367.0" prefHeight="261.0" prefWidth="525.0" style="-fx-background-color: white;">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenue">
+               <font>
+                  <Font name="Calibri Bold" size="19.0" />
+               </font>
+            </Text>
+            <HBox alignment="CENTER_RIGHT" prefHeight="110.0" prefWidth="648.0">
                <children>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Archives">
-                     <VBox.margin>
-                        <Insets left="230.0" />
-                     </VBox.margin>
-                  </Text>
-               </children>
-            </VBox>
-            <HBox alignment="CENTER" prefHeight="72.0" prefWidth="534.0">
-               <children>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenu" />
-                  <HBox alignment="CENTER" prefHeight="72.0" prefWidth="487.0">
-                     <HBox.margin>
-                        <Insets left="100.0" />
-                     </HBox.margin>
-                     <children>
-                        <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="46.0">
-                           <HBox.margin>
-                              <Insets left="210.0" right="50.0" />
-                           </HBox.margin>
-                           <graphic>
-                              <ImageView fitHeight="39.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
-                                 <image>
-                                    <Image url="@../../../../../../Desktop/lp-project/—Pngtree—vector%20notification%20icon_4187244.png" />
-                                 </image>
-                              </ImageView>
-                           </graphic>
-                        </Button>
-                        <ImageView fitHeight="47.0" fitWidth="49.0" pickOnBounds="true" preserveRatio="true">
-                           <HBox.margin>
-                              <Insets left="20.0" />
-                           </HBox.margin>
+                  <HBox prefHeight="86.0" prefWidth="271.0" />
+                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="22.0" style="-fx-content-display: fa-search; -fx-background-color: FFFF;">
+                     <graphic>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@../../../../../../Desktop/lp-project/avatardefault_92824.png" />
+                              <Image url="@../images/—Pngtree—vector%20notification%20icon_4187244.png" />
                            </image>
                         </ImageView>
-                     </children>
-                  </HBox>
+                     </graphic>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Label text="Label">
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <ImageView fitHeight="43.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/avatardefault_92824.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="20.0" />
+                     </HBox.margin>
+                  </ImageView>
                </children>
             </HBox>
-            <HBox alignment="CENTER" layoutY="93.0" prefHeight="88.0" prefWidth="534.0">
-               <children>
-                  <HBox prefHeight="88.0" prefWidth="117.0" />
-               </children>
-            </HBox>
-            <VBox layoutX="4.0" layoutY="159.0" prefHeight="200.0" prefWidth="525.0" style="-fx-background-color: white;">
-               <children>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Annonces">
-                     <VBox.margin>
-                        <Insets left="230.0" />
-                     </VBox.margin>
-                  </Text>
-               </children>
-            </VBox>
          </children>
-      </Pane>
-    </children>
+      </HBox>
+   </children>
 </AnchorPane>
