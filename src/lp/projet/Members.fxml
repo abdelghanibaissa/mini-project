@@ -2,11 +2,8 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ComboBox?>
-<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -58,7 +55,7 @@
                   </AnchorPane>
                   <VBox layoutX="10.0" layoutY="161.0" maxWidth="1.7976931348623157E308" prefHeight="530.0" prefWidth="550.0" style="-fx-background-color: white;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Annonces">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="L'equipe">
                            <VBox.margin>
                               <Insets bottom="15.0" left="20.0" top="10.0" />
                            </VBox.margin>
@@ -286,281 +283,7 @@
                               </HBox>
                            </children>
                         </HBox>
-                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="240.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
-                                 <children>
-                                    <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../images/Frame%2078.png" />
-                                       </image>
-                                       <HBox.margin>
-                                          <Insets />
-                                       </HBox.margin>
-                                    </ImageView>
-                                    <Label text="Sejet1">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                    <Label text="12/30/2022">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                 </children>
-                                 <padding>
-                                    <Insets left="5.0" />
-                                 </padding>
-                              </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76;" text="valider">
-                                       <HBox.margin>
-                                          <Insets right="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D;" text="anuller" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
-                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="300.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
-                                 <children>
-                                    <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../images/Frame%2078.png" />
-                                       </image>
-                                       <HBox.margin>
-                                          <Insets />
-                                       </HBox.margin>
-                                    </ImageView>
-                                    <Label text="Sejet1">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                    <Label text="12/30/2022">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                 </children>
-                                 <padding>
-                                    <Insets left="5.0" />
-                                 </padding>
-                              </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76;" text="valider">
-                                       <HBox.margin>
-                                          <Insets right="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D;" text="anuller" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
-                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="360.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
-                                 <children>
-                                    <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../images/Frame%2078.png" />
-                                       </image>
-                                       <HBox.margin>
-                                          <Insets />
-                                       </HBox.margin>
-                                    </ImageView>
-                                    <Label text="Sejet1">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                    <Label text="12/30/2022">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                 </children>
-                                 <padding>
-                                    <Insets left="5.0" />
-                                 </padding>
-                              </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76;" text="valider">
-                                       <HBox.margin>
-                                          <Insets right="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D;" text="anuller" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
-                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="420.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
-                                 <children>
-                                    <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../images/Frame%2078.png" />
-                                       </image>
-                                       <HBox.margin>
-                                          <Insets />
-                                       </HBox.margin>
-                                    </ImageView>
-                                    <Label text="Sejet1">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                    <Label text="12/30/2022">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                 </children>
-                                 <padding>
-                                    <Insets left="5.0" />
-                                 </padding>
-                              </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76;" text="valider">
-                                       <HBox.margin>
-                                          <Insets right="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D;" text="anuller" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
-                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="480.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
-                           <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
-                                 <children>
-                                    <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../images/Frame%2078.png" />
-                                       </image>
-                                       <HBox.margin>
-                                          <Insets />
-                                       </HBox.margin>
-                                    </ImageView>
-                                    <Label text="Sejet1">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                    <Label text="12/30/2022">
-                                       <HBox.margin>
-                                          <Insets left="100.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font size="14.0" />
-                                       </font>
-                                    </Label>
-                                 </children>
-                                 <padding>
-                                    <Insets left="5.0" />
-                                 </padding>
-                              </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76;" text="valider">
-                                       <HBox.margin>
-                                          <Insets right="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D;" text="anuller" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
-                           </children>
-                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="300.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;" />
                      </children>
                      <padding>
                         <Insets bottom="30.0" />
@@ -568,37 +291,14 @@
                   </VBox>
                   <AnchorPane layoutX="10.0" layoutY="83.0" prefHeight="55.0" prefWidth="555.0" style="-fx-background-color: EFF3FD;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0">
                      <children>
-                        <HBox alignment="CENTER_RIGHT" layoutX="224.0" prefHeight="66.0" prefWidth="422.0" AnchorPane.leftAnchor="224.0" AnchorPane.rightAnchor="5.0">
-                           <children>
-                              <TextField prefHeight="32.0" prefWidth="137.0" promptText="chercher par nom">
-                                 <HBox.margin>
-                                    <Insets right="10.0" />
-                                 </HBox.margin>
-                              </TextField>
-                              <ComboBox prefHeight="30.0" prefWidth="122.0" promptText="Service" style="-fx-background-color: FFFF;" HBox.hgrow="SOMETIMES">
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                                 <HBox.margin>
-                                    <Insets right="10.0" />
-                                 </HBox.margin>
-                              </ComboBox>
-                              <DatePicker prefHeight="31.0" prefWidth="124.0" HBox.hgrow="SOMETIMES">
-                                 <HBox.margin>
-                                    <Insets right="10.0" />
-                                 </HBox.margin>
-                              </DatePicker>
-                              <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="42.0" style="-fx-content-display: fa-search;" HBox.hgrow="ALWAYS">
-                                 <graphic>
-                                    <ImageView fitHeight="20.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true">
-                                       <image>
-                                          <Image url="@../images/Монтажная%20область%203.png" />
-                                       </image>
-                                    </ImageView>
-                                 </graphic>
-                              </Button>
-                           </children>
-                        </HBox>
+                        <Button layoutX="28.0" layoutY="16.0" mnemonicParsing="false" onAction="#showAddAnnonce" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #2678F3;" text="Ajouter employee" textFill="WHITE">
+                           <opaqueInsets>
+                              <Insets left="5.0" />
+                           </opaqueInsets>
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
                      </children>
                   </AnchorPane>
                </children>
@@ -618,14 +318,6 @@
                   <Insets />
                </VBox.margin>
             </ImageView>
-            <Button mnemonicParsing="false" onAction="#showAddAnnonce" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #2678F3;" text="Ajouter annonce" textFill="WHITE">
-               <opaqueInsets>
-                  <Insets left="5.0" />
-               </opaqueInsets>
-               <font>
-                  <Font name="System Bold" size="13.0" />
-               </font>
-            </Button>
             <Button mnemonicParsing="false" onAction="#showDashboard" prefHeight="55.0" prefWidth="211.0" style="-fx-background-color: white;" text="Dashborad">
                <VBox.margin>
                   <Insets top="40.0" />
