@@ -1,4 +1,3 @@
-
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
@@ -21,7 +20,8 @@ import javafx.stage.Stage;
  *
  * @author KAMUI
  */
-public class AnnonceADController implements Initializable {
+public class MembersRSController implements Initializable {
+
     public void showAddAnnonce(ActionEvent event) throws IOException {
         
         Parent root = FXMLLoader.load(getClass().getResource("Ajouteannonce.fxml"));
@@ -64,12 +64,9 @@ public class AnnonceADController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
-
-
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
     
 }
-

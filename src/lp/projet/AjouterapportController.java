@@ -13,7 +13,7 @@ import javafx.fxml.Initializable;
  *
  * @author KAMUI
  */
-public class TestController implements Initializable {
+public class AjouterapportController implements Initializable {
 
     /**
      * Initializes the controller class.

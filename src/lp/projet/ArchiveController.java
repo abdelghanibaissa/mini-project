@@ -53,7 +53,6 @@ public class ArchiveController implements Initializable {
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
         stage.show();
-
     }  
     @Override
     public void initialize(URL url, ResourceBundle rb) {
