@@ -104,18 +104,7 @@
                                     <Insets left="5.0" />
                                  </padding>
                               </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="60.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
@@ -159,18 +148,7 @@
                                     <Insets left="5.0" />
                                  </padding>
                               </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="180.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
@@ -214,18 +192,7 @@
                                     <Insets left="5.0" />
                                  </padding>
                               </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="240.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
@@ -269,18 +236,7 @@
                                     <Insets left="5.0" />
                                  </padding>
                               </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="300.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none;">
@@ -324,18 +280,7 @@
                                     <Insets left="5.0" />
                                  </padding>
                               </HBox>
-                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
-                                 <children>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
-                                       <HBox.margin>
-                                          <Insets left="10.0" />
-                                       </HBox.margin>
-                                       <font>
-                                          <Font name="System Bold" size="14.0" />
-                                       </font>
-                                    </Button>
-                                 </children>
-                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER" />
                            </children>
                         </HBox>
                      </children>
@@ -343,18 +288,7 @@
                         <Insets bottom="30.0" />
                      </padding>
                   </VBox>
-                  <AnchorPane layoutX="10.0" layoutY="83.0" prefHeight="55.0" prefWidth="555.0" style="-fx-background-color: EFF3FD;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0">
-                     <children>
-                        <Button layoutX="22.0" layoutY="10.0" mnemonicParsing="false" onAction="#showAddAnnonce" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #2678F3; -fx-background-radius: 15;" text="Ajouter employee" textFill="WHITE">
-                           <opaqueInsets>
-                              <Insets left="5.0" />
-                           </opaqueInsets>
-                           <font>
-                              <Font name="System Bold" size="13.0" />
-                           </font>
-                        </Button>
-                     </children>
-                  </AnchorPane>
+                  <AnchorPane layoutX="10.0" layoutY="83.0" prefHeight="55.0" prefWidth="555.0" style="-fx-background-color: EFF3FD;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0" />
                </children>
                <padding>
                   <Insets bottom="40.0" />

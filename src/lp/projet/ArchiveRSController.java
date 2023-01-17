@@ -20,9 +20,19 @@ import javafx.stage.Stage;
  *
  * @author KAMUI
  */
-public class ArchiveController implements Initializable {
+public class ArchiveRSController implements Initializable {
 
-    public void showDashboard(ActionEvent event) throws IOException {
+   public void showAddAnnonce(ActionEvent event) throws IOException {
+        
+        Parent root = FXMLLoader.load(getClass().getResource("Ajouteannonce.fxml"));
+        Scene scene = new Scene(root);
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+
+        stage.show();
+
+    }
+ public void showDashboard(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Dashboard.fxml"));
         Scene scene = new Scene(root);
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
@@ -53,7 +63,7 @@ public class ArchiveController implements Initializable {
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
         stage.show();
-    }  
+    }
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO

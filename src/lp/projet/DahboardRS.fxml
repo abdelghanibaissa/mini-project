@@ -196,7 +196,7 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                      <children>
-                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
+                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin>
@@ -254,7 +254,7 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                      <children>
-                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
+                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin>
@@ -312,7 +312,7 @@
                   </HBox>
                   <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                      <children>
-                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
+                        <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
                            <HBox.margin>
                               <Insets right="10.0" />
                            </HBox.margin>
