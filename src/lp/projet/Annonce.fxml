@@ -101,7 +101,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
+                                    <Button mnemonicParsing="false" onAction="#btnvalider" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -159,7 +159,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
+                                    <Button fx:id="btnvalider1" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>

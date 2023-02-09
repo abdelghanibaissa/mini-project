@@ -8,11 +8,14 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
@@ -21,6 +24,12 @@ import javafx.stage.Stage;
  * @author KAMUI
  */
 public class ArchiveController implements Initializable {
+    
+      @FXML
+    private Button btnok;
+      
+      @FXML
+    private VBox vb1;
 
     public void showDashboard(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Dashboard.fxml"));
@@ -46,7 +55,7 @@ public class ArchiveController implements Initializable {
         stage.show();
 
     }  
-        
+        Composant c1;
     public void showAnnonce(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Annonce.fxml"));
         Scene scene = new Scene(root);
@@ -56,7 +65,11 @@ public class ArchiveController implements Initializable {
     }  
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
+        btnok.setOnAction(e-> modifier(3));
     }    
+      public void modifier(int id )  {
+     c1 = new Composant();
+     vb1.getChildren().add(c1.addline());
+    }
     
 }

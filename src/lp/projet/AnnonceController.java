@@ -8,11 +8,13 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 /**
@@ -21,6 +23,8 @@ import javafx.stage.Stage;
  * @author KAMUI
  */
 public class AnnonceController implements Initializable {
+     
+
 
     public void showAddAnnonce(ActionEvent event) throws IOException {
         
@@ -64,9 +68,16 @@ public class AnnonceController implements Initializable {
         stage.setScene(scene);
         stage.show();
     }
+    
+    public void btnvalider(ActionEvent event) throws IOException {
+        System.out.println("hhhhhhhhhhhh");
+
+    }
+    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
+      
+    }   
+  
     
 }

@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="645.0" prefWidth="901.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
+<AnchorPane id="AnchorPane" prefHeight="645.0" prefWidth="901.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.ArchiveController">
    <children>
       <ScrollPane fitToWidth="true" hbarPolicy="NEVER" layoutX="210.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="0.0">
          <content>
@@ -56,7 +56,7 @@
                         </Text>
                      </children>
                   </AnchorPane>
-                  <VBox layoutX="10.0" layoutY="161.0" maxWidth="1.7976931348623157E308" prefHeight="530.0" prefWidth="550.0" style="-fx-background-color: white; -fx-background-radius: 20;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0">
+                  <VBox fx:id="vb1" layoutX="10.0" layoutY="161.0" maxWidth="1.7976931348623157E308" prefHeight="530.0" prefWidth="550.0" style="-fx-background-color: white; -fx-background-radius: 20;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0">
                      <children>
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Archive">
                            <VBox.margin>
@@ -101,7 +101,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
+                                    <Button fx:id="btnok" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -354,8 +354,10 @@
                            </children>
                            <padding>
                               <Insets left="5.0" right="5.0" />
-                           </padding>
+                           </padding>  
                         </HBox>
+                        
+                        
                      </children>
                      <padding>
                         <Insets bottom="30.0" />
