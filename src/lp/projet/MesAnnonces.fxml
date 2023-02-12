@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="695.0" prefWidth="951.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
+<AnchorPane id="AnchorPane" prefHeight="693.0" prefWidth="951.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
    <children>
       <ScrollPane fitToWidth="true" hbarPolicy="NEVER" layoutX="210.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="0.0">
          <content>
@@ -58,7 +58,7 @@
                   </AnchorPane>
                   <VBox layoutX="10.0" layoutY="161.0" maxWidth="1.7976931348623157E308" prefHeight="530.0" prefWidth="550.0" style="-fx-background-color: white; -fx-background-radius: 20;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0">
                      <children>
-                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Archive">
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Annonces">
                            <VBox.margin>
                               <Insets bottom="15.0" left="20.0" top="10.0" />
                            </VBox.margin>
@@ -68,11 +68,11 @@
                         </Text>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="48.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none; -fx-background-radius: 30;">
                            <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="425.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
+                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
                                  <children>
                                     <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                          <Image url="@../images/9648301_38767%201.png" />
+                                          <Image url="@../images/Frame%2078.png" />
                                        </image>
                                        <HBox.margin>
                                           <Insets />
@@ -101,7 +101,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
+                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -109,7 +109,7 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="annuler" textFill="WHITE">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -126,11 +126,11 @@
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="60.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none; -fx-background-radius: 30;">
                            <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="425.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
+                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
                                  <children>
                                     <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                          <Image url="@../images/9648301_38767%201.png" />
+                                          <Image url="@../images/Frame%2078.png" />
                                        </image>
                                        <HBox.margin>
                                           <Insets />
@@ -159,7 +159,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
+                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -167,7 +167,65 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="annuler" textFill="WHITE">
+                                       <HBox.margin>
+                                          <Insets left="10.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                 </children>
+                              </HBox>
+                           </children>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="120.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none; -fx-background-radius: 30;">
+                           <children>
+                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
+                                 <children>
+                                    <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../images/Frame%2078.png" />
+                                       </image>
+                                       <HBox.margin>
+                                          <Insets />
+                                       </HBox.margin>
+                                    </ImageView>
+                                    <Label text="Sejet1">
+                                       <HBox.margin>
+                                          <Insets left="100.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label text="12/30/2022">
+                                       <HBox.margin>
+                                          <Insets left="100.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
+                                       <HBox.margin>
+                                          <Insets right="10.0" />
+                                       </HBox.margin>
+                                       <font>
+                                          <Font name="System Bold" size="14.0" />
+                                       </font>
+                                    </Button>
+                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="annuler" textFill="WHITE">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -184,11 +242,11 @@
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="180.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none; -fx-background-radius: 30;">
                            <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="425.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
+                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
                                  <children>
                                     <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                          <Image url="@../images/9648301_38767%201.png" />
+                                          <Image url="@../images/Frame%2078.png" />
                                        </image>
                                        <HBox.margin>
                                           <Insets />
@@ -217,7 +275,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
+                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -225,7 +283,7 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="annuler" textFill="WHITE">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -242,11 +300,11 @@
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="240.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none; -fx-background-radius: 30;">
                            <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="425.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
+                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
                                  <children>
                                     <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                          <Image url="@../images/9648301_38767%201.png" />
+                                          <Image url="@../images/Frame%2078.png" />
                                        </image>
                                        <HBox.margin>
                                           <Insets />
@@ -275,7 +333,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
+                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -283,7 +341,7 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="annuler" textFill="WHITE">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -300,11 +358,11 @@
                         </HBox>
                         <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="300.0" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" prefWidth="637.0" style="-fx-background-color: ffff; -fx-border-style: solid none none none; -fx-background-radius: 30;">
                            <children>
-                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="425.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
+                              <HBox alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="59.0" prefWidth="442.0" style="-fx-background-color: FFFF;" HBox.hgrow="ALWAYS">
                                  <children>
                                     <ImageView fitHeight="50.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
-                                          <Image url="@../images/9648301_38767%201.png" />
+                                          <Image url="@../images/Frame%2078.png" />
                                        </image>
                                        <HBox.margin>
                                           <Insets />
@@ -333,7 +391,7 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="202.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
-                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="Modifier" textFill="WHITE">
+                                    <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #5DFA76; -fx-background-radius: 15;" text="valider">
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -341,7 +399,7 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
-                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: C80202; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+                                    <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="82.0" style="-fx-background-color: #7D7D7D; -fx-background-radius: 15;" text="annuler" textFill="WHITE">
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -363,6 +421,14 @@
                   </VBox>
                   <AnchorPane layoutX="10.0" layoutY="83.0" prefHeight="55.0" prefWidth="555.0" style="-fx-background-color: EFF3FD;" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="30.0">
                      <children>
+                        <Button layoutY="16.0" mnemonicParsing="false" onAction="#showAddAnnonce" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #2678F3; -fx-background-radius: 15;" text="Mes annonce" textFill="WHITE" AnchorPane.leftAnchor="0.0">
+                           <opaqueInsets>
+                              <Insets left="5.0" />
+                           </opaqueInsets>
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font>
+                        </Button>
                         <HBox alignment="CENTER_RIGHT" layoutX="224.0" prefHeight="66.0" prefWidth="422.0" AnchorPane.leftAnchor="224.0" AnchorPane.rightAnchor="5.0">
                            <children>
                               <TextField prefHeight="32.0" prefWidth="137.0" promptText="chercher par nom">
@@ -378,7 +444,7 @@
                                     <Insets right="10.0" />
                                  </HBox.margin>
                               </ComboBox>
-                              <DatePicker prefHeight="31.0" prefWidth="127.0" promptText="dd\mm\yyyy" HBox.hgrow="SOMETIMES">
+                              <DatePicker prefHeight="31.0" prefWidth="124.0" HBox.hgrow="SOMETIMES">
                                  <HBox.margin>
                                     <Insets right="10.0" />
                                  </HBox.margin>
@@ -415,7 +481,7 @@
             </ImageView>
             <Button mnemonicParsing="false" onAction="#showDashboard" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: white;" text="Dashborad">
                <VBox.margin>
-                  <Insets left="20.0" right="20.0" top="40.0" />
+                  <Insets top="40.0" />
                </VBox.margin>
                <opaqueInsets>
                   <Insets />
@@ -428,30 +494,12 @@
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets left="4.0" />
+                  <Insets left="10.0" />
                </padding>
             </Button>
-            <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Annonce" textFill="#060d0b">
+            <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="Annonce" textFill="#00dea3">
                <VBox.margin>
-                  <Insets left="20.0" right="20.0" />
-               </VBox.margin>
-               <opaqueInsets>
-                  <Insets top="10.0" />
-               </opaqueInsets>
-               <graphic>
-                  <ImageView fitHeight="17.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../images/send-2.png" />
-                     </image>
-                  </ImageView>
-               </graphic>
-               <padding>
-                  <Insets right="9.0" />
-               </padding>
-            </Button>
-            <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: white;" text="Archive" textFill="#00dea3">
-               <VBox.margin>
-                  <Insets left="20.0" right="20.0" />
+                  <Insets />
                </VBox.margin>
                <opaqueInsets>
                   <Insets top="10.0" />
@@ -459,20 +507,38 @@
                <graphic>
                   <ImageView fitHeight="24.0" fitWidth="18.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../images/note-v.png" />
+                        <Image url="@../images/send.png" />
                      </image>
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets right="19.0" />
+                  <Insets left="10.0" right="13.0" />
                </padding>
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
+            <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: white;" text="Archive">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets top="10.0" />
+               </opaqueInsets>
+               <graphic>
+                  <ImageView fitHeight="17.0" fitWidth="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/note.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
+            </Button>
             <Button mnemonicParsing="false" onAction="#showMembers" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: white;" text="Members">
                <VBox.margin>
-                  <Insets left="20.0" right="20.0" />
+                  <Insets />
                </VBox.margin>
                <opaqueInsets>
                   <Insets top="10.0" />
@@ -490,7 +556,7 @@
             </Button>
             <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="190.0" style="-fx-background-color: white;" text="Setting">
                <VBox.margin>
-                  <Insets left="20.0" right="20.0" />
+                  <Insets />
                </VBox.margin>
                <opaqueInsets>
                   <Insets top="10.0" />

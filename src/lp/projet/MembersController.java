@@ -29,7 +29,7 @@ public class MembersController implements Initializable {
         stage.setScene(scene);
         stage.show();
 
-    }
+    }   
  public void showDashboard(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Dashboard.fxml"));
         Scene scene = new Scene(root);
@@ -37,7 +37,7 @@ public class MembersController implements Initializable {
         stage.setScene(scene);
         stage.show();
 
-    }   
+    }  
   public void showMembers(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Members.fxml"));
         Scene scene = new Scene(root);
@@ -45,7 +45,7 @@ public class MembersController implements Initializable {
         stage.setScene(scene);
         stage.show();
 
-    }  
+    }
     public void showArchive(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Archive.fxml"));
         Scene scene = new Scene(root);

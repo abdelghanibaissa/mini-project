@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="645.0" prefWidth="901.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
+<AnchorPane id="AnchorPane" prefHeight="693.0" prefWidth="951.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
    <children>
       <VBox alignment="TOP_CENTER" layoutY="71.0" prefHeight="645.0" prefWidth="209.0" style="-fx-background-color: ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
@@ -40,6 +40,9 @@
                <font>
                   <Font size="13.0" />
                </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
             </Button>
             <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Annonce">
                <VBox.margin>
@@ -56,7 +59,7 @@
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets right="13.0" />
+                  <Insets left="10.0" right="13.0" />
                </padding>
             </Button>
             <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="55.0" prefWidth="202.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Archive">
@@ -73,6 +76,9 @@
                      </image>
                   </ImageView>
                </graphic>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
             </Button>
             <Button mnemonicParsing="false" onAction="#showMembers" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Members">
                <VBox.margin>
@@ -89,7 +95,7 @@
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets right="19.0" />
+                  <Insets right="5.0" />
                </padding>
             </Button>
             <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="212.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Settings">
@@ -107,7 +113,7 @@
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets right="25.0" />
+                  <Insets right="10.0" />
                </padding>
             </Button>
          </children>

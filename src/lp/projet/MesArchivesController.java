@@ -1,6 +1,6 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML2.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
  */
 package lp.projet;
 
@@ -16,15 +16,19 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
+ * FXML Controller class
  *
  * @author KAMUI
  */
-public class DashboardController implements Initializable {
-    public void showAddAnnonce(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Ajouteannonce.fxml"));
+public class MesArchivesController implements Initializable {
+
+     public void showAddAnnonce(ActionEvent event) throws IOException {
+        
+        Parent root = FXMLLoader.load(getClass().getResource("Ajouterapport.fxml"));
         Scene scene = new Scene(root);
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
+
         stage.show();
 
     }
@@ -52,15 +56,13 @@ public class DashboardController implements Initializable {
         stage.show();
 
     }  
-        
-    public void showAnnonce(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("Annonce.fxml"));
+    public void showAddRapport(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Ajouterapport.fxml"));
         Scene scene = new Scene(root);
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
         stage.show();
     }
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
