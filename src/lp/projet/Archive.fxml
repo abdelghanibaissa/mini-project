@@ -15,7 +15,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="645.0" prefWidth="901.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
+<AnchorPane id="AnchorPane" prefHeight="693.0" prefWidth="951.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
    <children>
       <ScrollPane fitToWidth="true" hbarPolicy="NEVER" layoutX="210.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="0.0">
          <content>
@@ -394,7 +394,7 @@
                               </Button>
                            </children>
                         </HBox>
-                        <Button layoutX="4.0" layoutY="16.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #2678F3; -fx-background-radius: 15;" text="Ajoute rapport" textFill="WHITE">
+                        <Button layoutX="4.0" layoutY="16.0" mnemonicParsing="false" onAction="#showAddAnnonce" prefHeight="34.0" prefWidth="138.0" style="-fx-background-color: #2678F3; -fx-background-radius: 15;" text="Mes archives" textFill="WHITE">
                            <font>
                               <Font name="System Bold" size="13.0" />
                            </font>

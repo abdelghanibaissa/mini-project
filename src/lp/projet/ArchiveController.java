@@ -46,7 +46,13 @@ public class ArchiveController implements Initializable {
         stage.show();
 
     }  
-        
+    public void showAddRapport(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Ajouterapport.fxml"));
+        Scene scene = new Scene(root);
+        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        stage.setScene(scene);
+        stage.show();
+    }      
     public void showAnnonce(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getResource("Annonce.fxml"));
         Scene scene = new Scene(root);

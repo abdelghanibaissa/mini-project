@@ -11,9 +11,9 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane id="AnchorPane" prefHeight="645.0" prefWidth="901.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
+<AnchorPane id="AnchorPane" prefHeight="693.0" prefWidth="951.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AnnonceController">
    <children>
-      <VBox alignment="TOP_CENTER" layoutY="71.0" prefHeight="645.0" prefWidth="209.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <VBox alignment="TOP_CENTER" layoutY="71.0" prefHeight="645.0" prefWidth="209.0" style="-fx-background-color: ffffff;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <ImageView fitHeight="90.0" fitWidth="138.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -23,9 +23,9 @@
                   <Insets />
                </VBox.margin>
             </ImageView>
-            <Button mnemonicParsing="false" onAction="#showDashboard" prefHeight="55.0" prefWidth="211.0" style="-fx-background-color: white;" text="Dashborad" textFill="#00dea3">
+            <Button mnemonicParsing="false" onAction="#showDashboard" prefHeight="55.0" prefWidth="211.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Dashborad" textFill="#00dea3">
                <VBox.margin>
-                  <Insets top="40.0" />
+                  <Insets left="20.0" right="20.0" top="40.0" />
                </VBox.margin>
                <opaqueInsets>
                   <Insets />
@@ -40,10 +40,13 @@
                <font>
                   <Font size="13.0" />
                </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
             </Button>
-            <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Annonce">
+            <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Annonce">
                <VBox.margin>
-                  <Insets />
+                  <Insets left="20.0" right="20.0" top="5.0" />
                </VBox.margin>
                <opaqueInsets>
                   <Insets top="10.0" />
@@ -56,12 +59,12 @@
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets right="13.0" />
+                  <Insets left="10.0" right="13.0" />
                </padding>
             </Button>
-            <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Archive">
+            <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="55.0" prefWidth="202.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Archive">
                <VBox.margin>
-                  <Insets right="20.0" />
+                  <Insets left="20.0" right="20.0" top="5.0" />
                </VBox.margin>
                <opaqueInsets>
                   <Insets top="10.0" />
@@ -73,10 +76,13 @@
                      </image>
                   </ImageView>
                </graphic>
+               <padding>
+                  <Insets right="10.0" />
+               </padding>
             </Button>
-            <Button mnemonicParsing="false" onAction="#showMembers" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Members">
+            <Button mnemonicParsing="false" onAction="#showMembers" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Members">
                <VBox.margin>
-                  <Insets />
+                  <Insets left="20.0" right="20.0" top="5.0" />
                </VBox.margin>
                <opaqueInsets>
                   <Insets top="10.0" />
@@ -89,12 +95,12 @@
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets right="19.0" />
+                  <Insets right="5.0" />
                </padding>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="212.0" style="-fx-background-color: white;" text="Setting">
+            <Button mnemonicParsing="false" prefHeight="55.0" prefWidth="212.0" style="-fx-background-color: white; -fx-background-radius: 10;" text="Settings">
                <VBox.margin>
-                  <Insets />
+                  <Insets left="20.0" right="20.0" top="5.0" />
                </VBox.margin>
                <opaqueInsets>
                   <Insets top="10.0" />
@@ -107,7 +113,7 @@
                   </ImageView>
                </graphic>
                <padding>
-                  <Insets right="25.0" />
+                  <Insets right="10.0" />
                </padding>
             </Button>
          </children>
@@ -122,7 +128,7 @@
             <HBox alignment="CENTER_RIGHT" prefHeight="110.0" prefWidth="648.0">
                <children>
                   <HBox prefHeight="86.0" prefWidth="271.0" />
-                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="22.0" style="-fx-content-display: fa-search; -fx-background-color: FFFF;">
+                  <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="22.0" style="-fx-content-display: fa-search; -fx-background-color: EFF3FD; -fx-border-color: BLACK;">
                      <graphic>
                         <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
                            <image>
