@@ -33,6 +33,8 @@ public class DashboardController implements Initializable {
         Scene scene = new Scene(root);
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
+        stage.setTitle(" Dashboard");
+       
         stage.show();
 
     }   
@@ -41,6 +43,7 @@ public class DashboardController implements Initializable {
         Scene scene = new Scene(root);
         Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         stage.setScene(scene);
+        stage.setTitle(" Memebres");
         stage.show();
 
     }  
