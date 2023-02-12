@@ -101,7 +101,10 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
+                                    
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -109,7 +112,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -156,7 +161,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -164,7 +171,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -211,7 +220,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -219,7 +230,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -266,7 +279,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -274,7 +289,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -321,7 +338,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -329,7 +348,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -376,7 +397,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -384,7 +407,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -431,7 +456,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -439,7 +466,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -486,7 +515,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -494,7 +525,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -541,7 +574,9 @@
                               </HBox>
                               <HBox alignment="CENTER" prefHeight="60.0" prefWidth="210.0" style="-fx-background-color: FFFF;" HBox.hgrow="NEVER">
                                  <children>
+
                                     <Button mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: #16C207; -fx-background-radius: 15;" text="valider" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets right="10.0" />
                                        </HBox.margin>
@@ -549,7 +584,9 @@
                                           <Font name="System Bold" size="14.0" />
                                        </font>
                                     </Button>
+
                                     <Button layoutX="168.0" layoutY="28.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="94.0" style="-fx-background-color: FF0000; -fx-background-radius: 15;" text="Supprimer" textFill="WHITE">
+
                                        <HBox.margin>
                                           <Insets left="10.0" />
                                        </HBox.margin>
@@ -636,7 +673,9 @@
                   <Insets left="10.0" right="15.0" />
                </padding>
             </Button>
+
             <Button mnemonicParsing="false" onAction="#showAnnonce" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Annonce" textFill="#00dea3">
+
                <VBox.margin>
                   <Insets left="20.0" right="20.0" />
                </VBox.margin>
@@ -644,7 +683,9 @@
                   <Insets top="10.0" />
                </opaqueInsets>
                <graphic>
+
                   <ImageView fitHeight="24.0" fitWidth="17.0" pickOnBounds="true" preserveRatio="true">
+
                      <image>
                         <Image url="@../images/send.png" />
                      </image>
@@ -653,9 +694,11 @@
                <padding>
                   <Insets left="5.0" right="20.0" />
                </padding>
+
                <font>
                   <Font size="13.0" />
                </font>
+
             </Button>
             <Button mnemonicParsing="false" onAction="#showArchive" prefHeight="55.0" prefWidth="210.0" style="-fx-background-color: white;" text="Archive">
                <VBox.margin>
